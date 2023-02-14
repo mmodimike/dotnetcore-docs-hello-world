@@ -51,7 +51,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'hammodidemo'
+          app-name: 'important-web-app'
           slot-name: 'staging'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3E8C05ACFC5A4DCCADE2944243448E84 }}
           package: .
